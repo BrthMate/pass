@@ -1,0 +1,13 @@
+.modal-header,.modal-footer{
+    border:unset
+}
+.modal-body{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.modal.show .modal-dialog {
+    -webkit-transform: translate(0,25vh);
+    transform: translate(0,25vh);
+}
